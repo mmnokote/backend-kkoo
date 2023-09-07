@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "videos",
+  "info": {
+    "singularName": "video",
+    "pluralName": "videos",
+    "displayName": "Video",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "youtube": {
+      "type": "string"
+    },
+    "category": {
+      "type": "customField",
+      "options": [
+        "General",
+        "Tutorial",
+        "Speech",
+        "Others"
+      ],
+      "customField": "plugin::multi-select.multi-select"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}
