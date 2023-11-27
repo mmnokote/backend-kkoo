@@ -56,12 +56,6 @@
       ],
       "customField": "plugin::multi-select.multi-select"
     },
-    "comments": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::comment.comment",
-      "mappedBy": "post"
-    },
     "slug": {
       "pluginOptions": {
         "i18n": {
