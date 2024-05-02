@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "websites_descriptions",
+  "info": {
+    "singularName": "websites-description",
+    "pluralName": "websites-descriptions",
+    "displayName": "Websites description"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

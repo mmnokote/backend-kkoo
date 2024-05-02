@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "responsibilities_departiments",
+  "info": {
+    "singularName": "responsibilities-departiment",
+    "pluralName": "responsibilities-departiments",
+    "displayName": "Responsibilities Departiments"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

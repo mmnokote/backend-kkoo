@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "missionvissions",
+  "info": {
+    "singularName": "missionvission",
+    "pluralName": "missionvissions",
+    "displayName": "Missionvissions"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
